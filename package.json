@@ -1,0 +1,33 @@
+{
+  "name": "book_library",
+  "version": "1.0.0",
+  "description": "api for books",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f957-cua/books_library.git"
+  },
+  "keywords": [
+    "book"
+  ],
+  "author": "Ivan Filipchyk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/f957-cua/books_library/issues"
+  },
+  "homepage": "https://github.com/f957-cua/books_library#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "eslint": "^8.44.0",
+    "rollup": "^3.26.2",
+    "rollup-plugin-import-css": "^3.3.1"
+  },
+  "dependencies": {
+    "on-change": "^4.0.2"
+  }
+}
